@@ -1,4 +1,4 @@
-package com.example.lr1;
+package com.example.lr3;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;

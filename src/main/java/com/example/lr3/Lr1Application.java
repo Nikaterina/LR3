@@ -1,4 +1,4 @@
-package com.example.lr1;
+package com.example.lr3;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

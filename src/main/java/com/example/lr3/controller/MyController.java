@@ -1,4 +1,4 @@
-package com.example.lr1.controller;
+package com.example.lr3.controller;
 
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -8,9 +8,9 @@ import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RestController;
-import com.example.lr1.model.Request;
-import com.example.lr1.model.Response;
-import com.example.lr1.service.MyModifyService;
+import com.example.lr3.model.Request;
+import com.example.lr3.model.Response;
+import com.example.lr3.service.MyModifyService;
 
 @Slf4j
 @RestController
@@ -35,7 +35,7 @@ public class MyController {
                 .systemTime(request.getSystemTime())
                 .code("success")
                 .errorCode("ProcessException")
-                .errorMessage("Ошибка процесса")
+                .errorMessage("Копия лр1, запуск на 8080")
                 .build();
 
         Response responseAfterModify = myModifyService.modify(response);
